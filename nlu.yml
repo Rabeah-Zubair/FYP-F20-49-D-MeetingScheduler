@@ -1,0 +1,120 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: meeting_request
+  examples: |
+    - meeting
+    - I want a meeting
+    - group meet
+    - google meet
+    - schedule meeting
+    - conversation
+    
+- intent: partcipant_email_entry
+  examples: |
+    - email is [i170002@nu.edu.pk](partcipant_email)
+    - email Id[i170005@nu.edu.pk](partcipant_email)
+    - [ammarmsd0123@gmail.com](partcipant_email)
+    - email[fypcomittee@nu.edu.pk](partcipant_email)
+    - id[amarmsd@yahoo.com](partcipant_email)
+    - [i170002@nu.edu.pk](partcipant_email)
+    
+- intent: partcipant_time_entry
+  examples: |
+    - time is [530pm](meeting_time)
+    - time[10AM](meeting_time)
+    - [11pm](meeting_time)
+    - time[1pm](meeting_time)
+    - time[noon](meeting_time)
+    - [tonight](meeting_time)
+    
+- intent: partcipant_date_entry
+  examples: |
+    - date is [10 January](meeting_date)
+    - date[10AM](meeting_date)
+    - [Tomorrow](meeting_date)
+    - date[Day after tomorrow](meeting_date)
+    - [Wednesday](meeting_date)
+    - [Friday](meeting_date)
+
+- intent: meeting_subject_entry
+  examples: |
+    - meeting subject is [discussion](meeting_subject)
+    - subject is [FYP idea scope](meeting_subject)
+    - topic is [Marks query](meeting_subject)
+    - meeting purpose is [FYP help](meeting_subject)
+    - meet for [supervision](meeting_subject)
+    - conversation for [report discussion](meeting_subject)
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
